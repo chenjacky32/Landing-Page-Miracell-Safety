@@ -31,6 +31,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 1.4rem 7%;
+  align-items: center;
   background-color: var(--nav2);
   position: fixed;
   top: 0;
@@ -47,15 +48,16 @@ body {
   font-family: "Roboto Slab", serif;
   text-decoration: none;
   padding-right: 4rem;
+  /* padding-top: 0.5rem; */
 }
 
 .navbar .navbar-logo span {
   color: rgb(107, 49, 49);
 }
 
-.navbar .navbar-nav {
-  padding-top: 0.5rem;
-}
+/* .navbar .navbar-nav {
+  /* padding-top: 0.5rem; 
+} */
 
 .navbar .navbar-nav a {
   color: #3f4d4d;
@@ -217,6 +219,8 @@ body {
 .about .row .about-img img {
   width: 100%;
   border-radius: 50px;
+  /* object-fit: cover;
+  object-position: top; */
   height: 100%;
 }
 
